@@ -68,8 +68,13 @@
             <div class="col-md">
                 Larva
             </div>
-        </div>
-        
+        </div> <br>
+        <p>
+          The second row of "insects" breaks first.
+          Initials of last name has bootstrap class col-sm which would break vertically when the screen size is below 576px <br>
+          Whereas, the insects have bootstrap class of col-md whose minimum width is 768px after which it would break.
+          Since col-md has minimum width that is greater than sm it will break first while reducing the size.
+      </p> <br>
     </div> 
     <br>
     <div class = "container">
@@ -150,7 +155,7 @@
           </div>
       </div> <br>
 
-      <!-- <div class="dropdown">
+       <div class="dropdown">
         <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown">Dropdown</button>
         <div class="dropdown-menu">
             <a href="basic.html" class="dropdown-item">Go to Basic HTML</a>
@@ -158,17 +163,7 @@
         </div>
     </div> <br>
 
-  
-     
-
-    <p>
-        The second row of "insects" breaks first.
-        Initials of last name has bootstrap class col-sm which would break vertically when the screen size is below 576px <br>
-        Whereas, the insects have bootstrap class of col-md whose minimum width is 768px after which it would break.
-        Since col-md has minimum width that is greater than sm it will break first while reducing the size.
-    </p> <br>
-
-    <form>
+    <!--<form>
       <div class="form-group">
         <label for="exampleInputEmail1" class="form-label">Email address</label>
         <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
